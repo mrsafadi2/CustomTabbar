@@ -11,6 +11,7 @@
 		C89C225A29530F6F00B85628 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C225929530F6F00B85628 /* ContentView.swift */; };
 		C89C225C29530F7000B85628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89C225B29530F7000B85628 /* Assets.xcassets */; };
 		C89C226029530F7000B85628 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89C225F29530F7000B85628 /* Preview Assets.xcassets */; };
+		C89C2267295312F100B85628 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C2266295312F100B85628 /* TabbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C89C225B29530F7000B85628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C89C225D29530F7000B85628 /* CustomTabbar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomTabbar.entitlements; sourceTree = "<group>"; };
 		C89C225F29530F7000B85628 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C89C2266295312F100B85628 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				C89C225729530F6F00B85628 /* CustomTabbarApp.swift */,
 				C89C225929530F6F00B85628 /* ContentView.swift */,
+				C89C2266295312F100B85628 /* TabbarView.swift */,
 				C89C225B29530F7000B85628 /* Assets.xcassets */,
 				C89C225D29530F7000B85628 /* CustomTabbar.entitlements */,
 				C89C225E29530F7000B85628 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89C2267295312F100B85628 /* TabbarView.swift in Sources */,
 				C89C225A29530F6F00B85628 /* ContentView.swift in Sources */,
 				C89C225829530F6F00B85628 /* CustomTabbarApp.swift in Sources */,
 			);
